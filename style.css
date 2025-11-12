@@ -23,7 +23,7 @@ body{margin:0;font-family:var(--sans);background:var(--bg);color:#0b1220;-webkit
 .nav a.active{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white}
 .hero{display:flex;gap:20px;align-items:center;padding:22px;border-radius:var(--radius);background:linear-gradient(180deg, rgba(15,76,129,0.03), rgba(31,111,155,0.02));}
 .avatar{width:110px;height:110px;border-radius:12px;overflow:hidden;flex:0 0 110px;border:1px solid rgba(11,18,32,0.06);background:white;display:flex;align-items:center;justify-content:center}
-.avatar img{width:100%;height:100%;object-fit:cover;display:block}
+.avatar img{width:50%;height:50%;object-fit:cover;display:block}
 /* hero photo style */
 .hero-photo {
   width: 120px !important;          /* decrease this to make smaller (try 100px–120px) */
