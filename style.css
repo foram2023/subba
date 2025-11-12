@@ -79,12 +79,14 @@ body {
 }
 
 .hero .interests {
-  color: var(--accent);       /* Change color to navy accent */
-  font-size: 18px;            /* Bigger than before */
-  font-weight: 600;           /* Semi-bold */
   margin-top: 12px;
+  font-size: 20px;           /* bigger font size */
+  font-weight: 600;           /* semi-bold */
+  text-align: center;
   line-height: 1.6;
-  letter-spacing: 0.5px;      /* Slight spacing for clarity */
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* gradient text effect */
 }
 
 /* Styled social links row (with icons and responsive alignment) */
